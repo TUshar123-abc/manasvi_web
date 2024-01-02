@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>MANASVI TECHNOLOGIES (OPC) Pvt. Ltd.</title>
+    <meta name="description" content="MANASVI TECHNOLOGIES (OPC) Pvt. Ltd." />
+    <meta name="keywords" content="MANASVI TECHNOLOGIES (OPC) Pvt. Ltd." />
+    <meta name="author" content="G-INFOSOFT TECHNOLOGIES" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#2e2a8f" />
+    <link href="../images/faivicon.jpg" rel="icon" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/plugin.min.css" rel="stylesheet" />
+    <link href="../css/all.min.css" rel="stylesheet" />
+    <link
+      href="../css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/responsive.css" rel="stylesheet" />
+    <link href="../css/darkmode.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/d6c52fc1e8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
+      <div class="container-fluid m-pad">
+        <div class="menu-header">
+          <div class="dsk-logo">
+            <a class="nav-brand" href="index.html">
+              <img
+                src="../images/white-logo.png"
+                alt="Logo"
+                class="mega-white-logo"
+              />
+              <img
+                src="../images/logo.png"
+                alt="Logo"
+                class="mega-darks-logo"
+              />
+            </a>
+          </div>
+          <div class="custom-nav" role="navigation">
+            <ul class="nav-list">
+              <li><a href="index.html" class="menu-links">Home</a></li>
+              <li><a href="about.html" class="menu-links">About Us</a></li>
+              <li>
+                <a href="products.html" class="menu-links">Our Products</a>
+              </li>
+              <li><a href="services.html" class="menu-links">Services</a></li>
+              <li><a href="contact.html" class="menu-links">Contact Us</a></li>
+            </ul>
+            <ul class="nav-list right-end-btn">
+              <li class="hidemobile">
+                <a href="tel:+91-8319955741" class="btn-round- btn-br bg-btn2"
+                  ><i class="fas fa-phone-alt"></i
+                ></a>
+              </li>
+              <!-- <li class="hidemobile"><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li> -->
+
+              <li class="hidedesktop">
+                <a href="tel:+91-8319955741" class="btn-round- btn-br bg-btn2"
+                  ><i class="fas fa-phone-alt"></i
+                ></a>
+              </li>
+              <li class="navm- hidedesktop">
+                <a class="toggle" href="#"><span></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav id="main-nav">
+          <ul class="first-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Our Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li>o<a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- <div class="niwaxofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
+   <div class="offcanvas-body">
+      <div class="cbtn animation">
+         <div class="btnclose"> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+      </div>
+      <div class="form-block sidebarform">
+         <h4>Request A Quote</h4>
+         <form data-bs-toggle="validator" class="shake mt20">
+            <div class="row">
+               <div class="form-group col-sm-12">
+                  <input type="text" placeholder="Enter name" required="" data-error="Please fill Out">
+                  <div class="help-block with-errors"></div>
+               </div>
+               <div class="form-group col-sm-12">
+                  <input type="email" placeholder="Enter email" required="">
+                  <div class="help-block with-errors"></div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="form-group col-sm-12">
+                  <input type="text" placeholder="Enter mobile" required="" data-error="Please fill Out">
+                  <div class="help-block with-errors"></div>
+               </div>
+               <div class="form-group col-sm-12">
+                  <select name="Dtype" id="Dtype" required="">
+                     <option value="">Select Requirement</option>
+                     <option value="web">web</option>
+                     <option value="graphic">graphic</option>
+                     <option value="video">video</option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+               </div>
+            </div>
+            <div class="form-group">
+               <textarea id="message" rows="5" placeholder="Enter your message" required=""></textarea>
+               <div class="help-block with-errors"></div>
+            </div>
+            <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span></button>
+            <div id="msgSubmit" class="h3 text-center hidden"></div>
+            <div class="clearfix"></div>
+         </form>
+      </div>
+      <div class="getintouchblock mt30">
+         <h4>Get In Touch</h4>
+         <p class="mt10">Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</p>
+         <div class="media mt15">
+            <div class="icondive"><img src="images/icons/call.svg" alt="icon"></div>
+            <div class="media-body getintouchinfo">
+               <a href="tel:123456790">+91-123 4567 890 <span>Mon-Fri 9am - 6pm</span></a>
+            </div>
+         </div>
+         <div class="media mt15">
+            <div class="icondive"><img src="images/icons/whatsapp.svg" alt="icon"></div>
+            <div class="media-body getintouchinfo">
+               <a href="tel:123456790">+91-123 4567 890 <span>Mon-Fri 9am - 6pm</span></a>
+            </div>
+         </div>
+         <div class="media mt15">
+            <div class="icondive"><img src="images/icons/mail.svg" alt="icon"></div>
+            <div class="media-body getintouchinfo">
+               <a href="/cdn-cgi/l/email-protection#036a6d656c43746661706a77662d606c6e"><span class="__cf_email__" data-cfemail="d9b0b7bfb699aebcbbaab0adbcf7bab6b4">[email&#160;protected]</span> <span>Online Support</span></a>
+            </div>
+         </div>
+         <div class="media mt15">
+            <div class="icondive"><img src="images/icons/map.svg" alt="icon"></div>
+            <div class="media-body getintouchinfo">
+               <a href="/cdn-cgi/l/email-protection#5930373f36192e3c3b2a302d3c773a3634">Jaipur, Rajasthan, India<span>Visit Our Office</span></a>
+            </div>
+         </div>
+      </div>
+      <div class="contact-data mt30">
+         <h4>Follow Us On:</h4>
+         <div class="social-media-linkz mt10">
+            <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+            <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+            <a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+            <a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
+         </div>
+      </div>
+   </div>
+</div> -->
+    <section class="breadcrumb-area banner-2">
+      <div class="text-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 v-center">
+              <div class="bread-inner">
+                <div class="bread-menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Our Products</a></li>
+                  </ul>
+                </div>
+                <div class="bread-title">
+                  <h2>Our Products</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-block bg-gradient6 pad-tb">
+      <div class="container">
+        <div class="row upset link-hover">
+         
+         <!--  <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".1s">
+            <a href="https://drive.google.com/file/d/16_2nsey1oObsq-9JgmE6Q9J1dGSlViCl/view?usp=drive_link">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/ecommerce.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>E-Commerce</h4>
+                <p>
+                  A Complete Business Software Specialized to manage any trade
+                  like commission agents, Pesticides / Fertilizer Dealer,
+                  Electronics and Mobile Dealers, FMCG etc.
+                </p>
+                
+              </div>
+            </div>
+          </a>
+          </div> -->
+       
+
+          <div class="row upset link-hover">
+
+            <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+              <a href="https://drive.google.com/file/d/16_2nsey1oObsq-9JgmE6Q9J1dGSlViCl/view?usp=drive_link">
+              <div class="s-block wide-sblock">
+                <div class="s-card-icon-large">
+                  <img src="../images/ecommerce.png" class="img-fluid" />
+                </div>
+                <div class="s-block-content-large">
+                  <h4>E-Commerce</h4>
+                  <p style="color: black;"> A Complete Business Software Specialized to manage any trade
+                    like commission agents, Pesticides / Fertilizer Dealer,
+                    Electronics and Mobile Dealers, FMCG etc.
+                  </p>
+                </div>
+              </div>
+              </a>
+            </div>
+
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/hotel.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Hotel Management System</h4>
+                <p style="color: black;">Run your hotel freely now, manage multiple branches with one website, human recourse management system , online as well as  offline room & food booking system , get analytical reports </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".3s">
+            <a href="https://drive.google.com/file/d/1Otf81n0HRV6MhyzfYlS1UPV7Be9oFrBA/view?usp=drive_link">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/clinic.jpg" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Clinic Management System</h4>
+                <p>
+                  Amazing product for all our doctors, manage your clinic like never before,
+                  Easy and handy to work, take and manage appointment, patient & doctor, also generate tax invoice.[]
+                  
+                </p>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/resturent.jpg" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Restaurant Management System</h4>
+                <p> Run your restaurant freely now, manage multiple branch with one website, human recourse management system, online food booking system, manage point of sale, get analytical reports.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+
+
+        <div class="row upset link-hover">
+        <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+          <a href="">
+          <div class="s-block wide-sblock">
+            <div class="s-card-icon-large">
+              <img src="../images/resturent.jpg" class="img-fluid" />
+            </div>
+            <div class="s-block-content-large">
+              <h4>Tiffin Management System</h4>
+              <p style="color: black;">Now get full control on incoming and outgoing of your Tiffin’s , get all information about pending payments etc. get all subscribers list with address and mode of distribution at one place.</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+          <a href="">
+          <div class="s-block wide-sblock">
+            <div class="s-card-icon-large">
+              <img src="../images/resturent.jpg" class="img-fluid" />
+            </div>
+            <div class="s-block-content-large">
+              <h4>Sales Person Management System </h4>
+              <p style="color: black;">Now track your sales by tracing the sales done by your sales executive’s Online quotation form, gives sales target, manage & create meetings & To-do list.</p> 
+            </div>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+          <a href="">
+          <div class="s-block wide-sblock">
+            <div class="s-card-icon-large">
+              <img src="../images/resturent.jpg" class="img-fluid" />
+            </div>
+            <div class="s-block-content-large">
+              <h4>Salon Management System </h4>
+              <p style="color: black;">Book appointment online, gives your customer out of the box experience, also add products which customer can buy online, create tax invoice with ease, get all your customer data at one place.</p> 
+            </div>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+          <a href="">
+          <div class="s-block wide-sblock">
+            <div class="s-card-icon-large">
+              <img src="../images/resturent.jpg" class="img-fluid" />
+            </div>
+            <div class="s-block-content-large">
+              <h4>Pharmacy Management System</h4>
+              <p style="color: black;">Now running pharmacy is just like drinking a cup of tea with our PMS, easy control on inventory with various features, human resource management system, accounting management, supplier & customer management, create easy tax invoice.</p> 
+            </div>
+          </div>
+          </a>
+        </div>
+
+
+        </div>
+
+
+
+        <div class="row upset link-hover">
+
+
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/resturent.jpg" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Digital visiting card</h4>
+                <p style="color: black;">Now replace your ordinary paper visiting card into digital visiting card. Just scan QR & provide all your contact details to your client/customer. “Go paperless & save the mother earth”.</p> 
+              </div>
+            </div>
+            </a>
+          </div>
+
+
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".5s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/school.avif" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>School Management</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".6s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/jewllery.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Jewellery</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".7s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/lab.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Pharmacy</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+        
+        </a>
+        </div>
+        </div>  
+        <div class="row upset link-hover" >
+          <div class="col-lg-6 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".9s">
+            <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/electronic.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Electronics</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+          <div
+            class="col-lg-6 col-sm-6 mt30 wow fadeInUp"
+            data-wow-delay=".10s"
+          >
+          <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/library.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Library</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+          <div
+            class="col-lg-6 col-sm-6 mt30 wow fadeInUp"
+            data-wow-delay=".11s"
+          >
+          <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/automobile.jpg" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Automobile</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </a>
+          </div>
+          <div
+            class="col-lg-6 col-sm-6 mt30 wow fadeInUp"
+            data-wow-delay=".12s"
+          >
+          <a href="">
+            <div class="s-block wide-sblock">
+              <div class="s-card-icon-large">
+                <img src="../images/empire.png" class="img-fluid" />
+              </div>
+              <div class="s-block-content-large">
+                <h4>Cloth Collection</h4>
+                <p>Comming Soon...</p>
+                <!-- <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Download<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+    </section>
+
+    <section class="foot-mob-sec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="common-heading">
+              <span class="text-white">Let's work together</span>
+              <h2 class="text-white">We Love to Listen to Your Requirements</h2>
+              <div class="pairofbtn d-flex gap40 text-center h-center mt20">
+                <a href="contact.html" class="btn-main bg-btn2 lnk"
+                  >Get In Touch With Us</a
+                >
+                <a href="whatsapp://send?phone=+919302447001" class="btnwithiconside d-flex gap10 v-center">
+                  <img src="../images/whatsapp.svg" alt="whatsapp" />
+                  <div class="text-white">
+                    <span class="text-white">Or - Just Give Us A Call:</span
+                    ><a class="text-white" href="tel:+91-8319955741"
+                      >+91-8319955741
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      
+      <div class="footer-row3"  style="background: rgb(184,182,228);
+      background: linear-gradient(90deg, rgba(184,182,228,1) 0%, rgba(148,80,199,1) 25%, rgba(226,2,184,1) 70%, rgba(85,67,181,1) 100%, rgba(50,165,195,1) 100%, rgba(201,96,236,1) 100%);">
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="footer-social-media-icons">
+                  <a href="javascript:void(0)" target="blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="https://twitter.com/manasvitech01" target="blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="https://instagram.com/manasvi.technologies?igshid=NTc4MTIwNjQ2YQ==" target="blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://www.linkedin.com/in/manasvi-technologies-7aa426262" target="blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+                <div class="footer-">
+                  <p>
+                    © 2023-2024. All Rights Reserved |
+                    <a href="index.html" target="blank"
+                      >Manasvi Technologies (OPC) PVT. LTD.</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- INDEX MODAL -->
+    <!-- <div class="modal leadpopup" id="leadModal">
+   <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+         <div class="modal-body">
+            <div class="innerbody">
+               <div class="innerleft">
+                  <div class="leadbtnclose"> <button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+                  <h3>Build Your App in just 2 Weeks</h3>
+                  <p class="mt10">Leave your details and one of our experts will contact you soon</p>
+                  <div class="form-block mt20">
+                     <form action="#" id="quotes-form" method="post">
+                        <div class="fieldsets row">
+                           <div class="col-md-12 form-group floating-label">
+                              <input type="text" placeholder=" " required="required" class="floating-input">
+                              <label>Full Name*</label>
+                           </div>
+                           <div class="col-md-12 form-group floating-label">
+                              <input type="email" placeholder=" " required="required" class="floating-input">
+                              <label>Email Address*</label>
+                           </div>
+                        </div>
+                        <div class="fieldsets row">
+                           <div class="col-md-12 form-group floating-label">
+                              <input type="tel" placeholder=" " required="required" class="floating-input">
+                              <label>Mobile Number*</label>
+                           </div>
+                        </div>
+                        <div class="fieldsets mt20"> <button type="submit" name="submit" class="lnk btn-main bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button> </div>
+                        <p class="trm"><i class="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
+                     </form>
+                  </div>
+               </div>
+               <div class="innerright" data-background="images/service/mockup-app.jpg"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div> -->
+
+    <script
+      data-cfasync="false"
+      src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="../js/modernizr 3.5.0.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundel.min.js"></script>
+    <script src="../js/plugin.min.js"></script>
+    <script src="../js/preload.js"></script>
+    <script src="../js/dark-mode.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/progress-bar.js"></script>
+    <script>
+      $(window).on("load", function () {
+        var delayMs = 4000; // delay in milliseconds
+        setTimeout(function () {
+          $("#leadModal").modal("show");
+        }, delayMs);
+      });
+    </script>
+  </body>
+</html>
