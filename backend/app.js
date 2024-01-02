@@ -3,17 +3,14 @@ import dotenv from "dotenv"
 import db from "./config/db.js"
 import  router  from "./routes/contactRoutes.js";
 import cors from "cors"
-import path from "path"
+
 
 const app = express();
 const port = process.env.PORT || 2000;
 dotenv.config();
 db()
 app.use(cors())
-app.use(express.static(path.join(__dirname, 'frontend')));
 
-// Serve HTML files specifically from the 'HTML' folder
-app.use('/html', express.static(path.join(__dirname, 'frontend', 'html')));
 
 app.use(express.json());
 app.use('/api', router)
